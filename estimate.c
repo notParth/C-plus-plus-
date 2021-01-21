@@ -30,7 +30,7 @@ void multiply(double** arrayOne, double** arrayTwo, double **result, int a, int 
 void inverse(double** array, double** result, int n)
 {
 	double f;
-	for(int p = 0; p < n; p++)
+	for(int p = 0; p <= n-1; p++)
 	{
 		f = array[p][p];
 		for(int j = 0; j < n; j++)
